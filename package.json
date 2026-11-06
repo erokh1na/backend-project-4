@@ -1,0 +1,42 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "page-loader": "bin/page-loader.js"
+  },
+  "bugs": {
+    "url": "https://github.com/erokh1na/backend-project-4/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erokh1na/backend-project-4.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "oxlint && oxfmt --check",
+    "lint:fix": "oxfmt && oxlint --fix"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@vitest/coverage-v8": "^4.1.12",
+    "nock": "^15.0.3",
+    "oxfmt": "^0.75.0",
+    "oxlint": "^1.90.0",
+    "vitest": "^4.1.12"
+  },
+  "dependencies": {
+    "axios": "^1.21.0",
+    "commander": "^14.0.3",
+    "readline-sync": "^1.4.10"
+  },
+  "volta": {
+    "node": "22.12.0",
+    "npm": "11.21.2"
+  }
+}
